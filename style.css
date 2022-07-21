@@ -1,0 +1,42 @@
+body {
+background: #000000;
+font-family: sans-serif;
+max-width: 800px;
+color: #FFFFFF;
+margin: 0 auto;
+}
+
+h1, h2 {
+text-align: center;
+}
+
+a {
+color: #04aa6d;
+text-decoration: none;}
+
+
+a:hover {
+text-decoration: underline;
+}
+
+li {
+list-style-type: square;
+}
+
+img {
+max-width: 100%;
+}
+
+.menu {
+text-align: center;
+margin-bottom: 25px;
+margin-top: 25px;
+} 
+
+@media screen and (max-width: 481px) {
+	
+body {
+padding: 0 10px 0 10px;
+}
+
+}
